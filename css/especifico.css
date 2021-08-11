@@ -1,0 +1,374 @@
+body {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1rem;    
+}
+
+
+@media only screen and (max-width:768px){
+    
+
+    .img-topo{
+        display: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+h1, h2,  h3, h4, h5,h6 {
+    color: black;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.h2-estilizado, .h4-estilizado{
+    font-weight: 400;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+::selection {
+  background: #000;
+  color: #fff; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none; }
+
+.border-2 {
+  border-width: 2px; }
+
+.text-black {
+  color: #000 !important; }
+
+.bg-black {
+  background: #000 !important; }
+
+.color-black-opacity-5 {
+  color: rgba(0, 0, 0, 0.5); }
+
+.color-white-opacity-5 {
+  color: rgba(255, 255, 255, 0.5); }
+
+.site-wrap:before {
+  display: none;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  background: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden; }
+
+.offcanvas-menu .site-wrap {
+  height: 100%;
+  width: 100%;
+  z-index: 2; }
+
+.offcanvas-menu .site-wrap:before {
+    opacity: 1;
+    visibility: visible; }
+
+.btn {
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px; }
+  .btn:hover, .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .btn.btn-primary {
+    border-width: 2px;
+    background: #00d2b5;
+    border-color: #00d2b5;
+    color: #fff;
+    -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4); }
+    .btn.btn-primary:hover {
+      background: transparent;
+      border-color: #00d2b5;
+      color: #000; }
+
+.line-height-1 {
+  line-height: 1 !important; }
+
+.form-control {
+  height: 43px;
+  border-radius: 30px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+  .form-control:active, .form-control:focus {
+    border-color: #00d2b5; }
+
+  .form-control:hover, .form-control:active, .form-control:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+
+.site-section {
+  padding: 1.5em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 2em 0; } }
+  .site-section.site-section-sm {
+    padding: 2em 0; }
+
+.site-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 2.5rem; }
+  @media (min-width: 768px) {
+    .site-section-heading {
+      font-size: 3rem; } }
+
+
+
+.etapas{
+    margin-top: 3rem;
+}
+
+        /*Listas ul ol li*/
+ul li .fa-twitter{
+    margin-left: -65px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.list-icon ul li{
+    font-size: 19px;
+    font-weight: 200;
+}
+ul li i{
+    margin-left: -2.5rem;
+    margin-top: .7rem   
+}
+
+        /*Final das Listas ul ol li*/
+
+        /*inicio das cores do site*/
+.bg-black {
+  background: #000; 
+}
+
+.section-u h3{
+    color: #fff;
+}
+
+.section-u{
+   background: #794BB4;
+}
+
+.bg-branco{
+    background: #fff;
+}
+
+.bg-azul{
+    background: #253556;
+    
+}
+
+.bg-light-2 {
+  background: #f6f6f6;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.blue{
+    background-color: #87CEFA;
+    
+}
+
+        /*Final das cores do site*/
+            
+  forma{
+      margin-left: 20rem;
+      position: absolute;
+      background-color: rgba(138,43,226, 0.9);
+      width: 450px;
+      height: 300px;
+      border-radius: 30% 70% 70% 30% / 30% 20% 80% 70% ;
+      -moz-border-radius: 30% 70% 70% 30% / 30% 20% 80% 70% ;
+      -webkit-border-radius: 30% 70% 70% 30% / 30% 20% 80% 70% ;
+      margin-bottom:0;
+      margin-top: 5rem;
+      transform: rotate(35deg);
+  } 
+
+        /*Inicio da ceção cards*/ 
+.content{
+    margin-left: 0;
+    border-radius: 5%;
+    background-color: #fff;
+    margin-top: 3rem;
+    padding: 5px 10px 10px;
+}
+
+.content p{
+    color: grey;
+    font-size: 18px;
+    text-align: left;
+}
+
+.card-icon {
+    position: relative;
+    margin-bottom:1px;
+    font-size: 35px;
+    padding: 15px;
+    text-align: left;
+    
+}
+        /*Inicio dos ícones*/
+.fa-desktop, .fa-mobile-alt, .fa-paint-brush, .fa-code, .fa-align-justify, .fa-credit-card {
+    
+    font-size: 35px;
+    padding: 5px;
+    text-align: left;
+    margin: 1rem;
+    color: #00d2b5;   
+}
+
+.fa-check-circle{
+    color: #00d2b5;
+    font-size: 21px;
+}
+        /*Final dos ícones*/
+
+        /*Final da ceção cards*/
+
+hr{
+    width: 84%;
+    background-color: #A4A4A4;
+}
+        /*Inicio da nav*/
+nav ul{
+    margin-left: 4.9rem;
+}
+
+.fa-align-center{
+    color: #fff;
+}
+
+.navbar{
+    color: #fff;
+}
+nav ul li a{
+    color: #fff;
+}
+
+.nav-item i:hover{
+    color: #0000FF;
+}
+        /*Final da nav*/
+
+        /* Efeito scroll navbar*/
+.compressed{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #6dcc7c;
+    color: #6dcc7c;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.compressed1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #e148be;
+    color: #6dcc7c;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.compressed2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fec800;
+    color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    
+}
+.compressed3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #794BB4;
+    color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.compressed ul li a{
+    color: #fff;
+}
+        /* Final do Efeito scroll navbar*/
+
+        /*Início do footer*/
+.ftco-footer {    
+  font-size: 16px;
+  background: #233142;
+  padding: 6em 0; 
+  color: #fff;    
+}
+
+.ftco-footer h3{
+    color: #fff;
+}
+
+.ftco-footer ul li a{
+    color: #fff;
+}
+
+.ftco-footer ul li a:hover{
+    color: grey;;
+}
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 12px 0 0;
+  display: inline-block; 
+}
+
+.ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative; 
+}
+
+.ftco-footer-social li a span {
+  position: absolute;
+  font-size: 26px;
+  top: 25%;
+  left: 31%;
+  color: #fff;
+}
+
+.ftco-footer-social li a span:hover {
+      color: grey 
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;   
+}
+.ftco-heading-3{
+    margin-left: 2rem;
+}
+
+/*Final do footer*/
